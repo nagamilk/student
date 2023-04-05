@@ -1,0 +1,32 @@
+body {
+  font-family: 'Lato';
+}
+.container {
+
+max-width: 980px;
+margin: 0 auto;
+}
+.form-label {
+margin-top: 10px;
+
+}
+h1 {
+margin-bottom: 20px !important;
+}
+
+a {
+text-decoration: none;
+}
+.btn-container {
+display: flex;
+}
+.btn-container-btn {
+margin-left: auto;
+margin-bottom: 10px;
+}
+.btn-container-btn {
+display: flex;
+}
+.add-student-btn {
+display: flex;
+}
