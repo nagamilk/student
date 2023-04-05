@@ -17,7 +17,7 @@ class StudentController extends Controller
 
   public function showAdd()
   {
-    return view('creat');
+    return view('create');
   }
 
   public function addStudent(Request $request)
@@ -32,7 +32,7 @@ class StudentController extends Controller
     $student->email = $request->email;
     $student->save();
     $request->session()->flash('success', '生徒を追加しました!');
-    return view('creat');
+    return view('create');
   }
 
   public function editStudent(Request $request)
