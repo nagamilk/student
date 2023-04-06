@@ -30,6 +30,8 @@
     .index-container {margin: 0 auto;}
     .required {color: red;}
     .panel-default-top {margin: 20px auto;}
+    .table>thead>tr>th {border-bottom: none;}
+    .table>tbody>tr>td {vertical-align: middle;}
   </style>
 </head>
 <body>
